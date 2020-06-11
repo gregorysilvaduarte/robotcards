@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/robotcards/static/css/main.bf803d78.chunk.css",
-    "main.js": "/robotcards/static/js/main.bc78e32c.chunk.js",
-    "main.js.map": "/robotcards/static/js/main.bc78e32c.chunk.js.map",
+    "main.css": "/robotcards/static/css/main.520535b9.chunk.css",
+    "main.js": "/robotcards/static/js/main.1bd9c638.chunk.js",
+    "main.js.map": "/robotcards/static/js/main.1bd9c638.chunk.js.map",
     "runtime-main.js": "/robotcards/static/js/runtime-main.c25e2603.js",
     "runtime-main.js.map": "/robotcards/static/js/runtime-main.c25e2603.js.map",
     "static/js/2.6626c70c.chunk.js": "/robotcards/static/js/2.6626c70c.chunk.js",
     "static/js/2.6626c70c.chunk.js.map": "/robotcards/static/js/2.6626c70c.chunk.js.map",
     "index.html": "/robotcards/index.html",
-    "precache-manifest.2e3632fe084987de603bf17836bd2e32.js": "/robotcards/precache-manifest.2e3632fe084987de603bf17836bd2e32.js",
+    "precache-manifest.95fd729d1385f225b2606f0eabea8253.js": "/robotcards/precache-manifest.95fd729d1385f225b2606f0eabea8253.js",
     "service-worker.js": "/robotcards/service-worker.js",
-    "static/css/main.bf803d78.chunk.css.map": "/robotcards/static/css/main.bf803d78.chunk.css.map",
+    "static/css/main.520535b9.chunk.css.map": "/robotcards/static/css/main.520535b9.chunk.css.map",
     "static/js/2.6626c70c.chunk.js.LICENSE.txt": "/robotcards/static/js/2.6626c70c.chunk.js.LICENSE.txt",
     "static/media/custom.css": "/robotcards/static/media/ProximaNova-Sbold-webfont.2b159765.woff2",
     "static/media/index.css": "/robotcards/static/media/SEGA.12a3db8b.woff",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c25e2603.js",
     "static/js/2.6626c70c.chunk.js",
-    "static/css/main.bf803d78.chunk.css",
-    "static/js/main.bc78e32c.chunk.js"
+    "static/css/main.520535b9.chunk.css",
+    "static/js/main.1bd9c638.chunk.js"
   ]
 }

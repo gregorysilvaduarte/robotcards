@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/gregorysilvaduarte/robotcards.git/static/css/main.dd7923ef.chunk.css",
-    "main.js": "/gregorysilvaduarte/robotcards.git/static/js/main.85752f28.chunk.js",
-    "main.js.map": "/gregorysilvaduarte/robotcards.git/static/js/main.85752f28.chunk.js.map",
-    "runtime-main.js": "/gregorysilvaduarte/robotcards.git/static/js/runtime-main.9f6cd337.js",
-    "runtime-main.js.map": "/gregorysilvaduarte/robotcards.git/static/js/runtime-main.9f6cd337.js.map",
-    "static/js/2.6626c70c.chunk.js": "/gregorysilvaduarte/robotcards.git/static/js/2.6626c70c.chunk.js",
-    "static/js/2.6626c70c.chunk.js.map": "/gregorysilvaduarte/robotcards.git/static/js/2.6626c70c.chunk.js.map",
-    "index.html": "/gregorysilvaduarte/robotcards.git/index.html",
-    "precache-manifest.cdd79997df18b99f8c1d70665925fe60.js": "/gregorysilvaduarte/robotcards.git/precache-manifest.cdd79997df18b99f8c1d70665925fe60.js",
-    "service-worker.js": "/gregorysilvaduarte/robotcards.git/service-worker.js",
-    "static/css/main.dd7923ef.chunk.css.map": "/gregorysilvaduarte/robotcards.git/static/css/main.dd7923ef.chunk.css.map",
-    "static/js/2.6626c70c.chunk.js.LICENSE.txt": "/gregorysilvaduarte/robotcards.git/static/js/2.6626c70c.chunk.js.LICENSE.txt",
-    "static/media/custom.css": "/gregorysilvaduarte/robotcards.git/static/media/ProximaNova-Sbold-webfont.2b159765.woff2",
-    "static/media/map.png": "/gregorysilvaduarte/robotcards.git/static/media/map.f1581987.png"
+    "main.css": "/robotcards/static/css/main.439ca376.chunk.css",
+    "main.js": "/robotcards/static/js/main.8015d184.chunk.js",
+    "main.js.map": "/robotcards/static/js/main.8015d184.chunk.js.map",
+    "runtime-main.js": "/robotcards/static/js/runtime-main.c25e2603.js",
+    "runtime-main.js.map": "/robotcards/static/js/runtime-main.c25e2603.js.map",
+    "static/js/2.6626c70c.chunk.js": "/robotcards/static/js/2.6626c70c.chunk.js",
+    "static/js/2.6626c70c.chunk.js.map": "/robotcards/static/js/2.6626c70c.chunk.js.map",
+    "index.html": "/robotcards/index.html",
+    "precache-manifest.000892c4734a8b240a270d889fdc8f36.js": "/robotcards/precache-manifest.000892c4734a8b240a270d889fdc8f36.js",
+    "service-worker.js": "/robotcards/service-worker.js",
+    "static/css/main.439ca376.chunk.css.map": "/robotcards/static/css/main.439ca376.chunk.css.map",
+    "static/js/2.6626c70c.chunk.js.LICENSE.txt": "/robotcards/static/js/2.6626c70c.chunk.js.LICENSE.txt",
+    "static/media/custom.css": "/robotcards/static/media/ProximaNova-Sbold-webfont.2b159765.woff2",
+    "static/media/map.png": "/robotcards/static/media/map.f1581987.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f6cd337.js",
+    "static/js/runtime-main.c25e2603.js",
     "static/js/2.6626c70c.chunk.js",
-    "static/css/main.dd7923ef.chunk.css",
-    "static/js/main.85752f28.chunk.js"
+    "static/css/main.439ca376.chunk.css",
+    "static/js/main.8015d184.chunk.js"
   ]
 }

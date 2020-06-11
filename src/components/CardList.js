@@ -3,19 +3,28 @@ import Card from "./Card";
 
 const CardList = ({ robots }) => {
   return (
-    <div className="wrapper">
-      {robots.map((user, i) => {
-        return (
-          <Card
-            key={i}
-            id={user.id}
-            name={user.name}
-            email={user.email}
-            address={user.address}
-            active={user.active}
-          />
-        );
-      })}
+    <div className={`wrapper ${robots.length ? "fill" : "fit"}`}>
+      {robots.length ? (
+        robots.map((user, i) => {
+          return (
+            <Card
+              key={i}
+              id={user.id}
+              name={user.name}
+              email={user.email}
+              address={user.address}
+              active={user.active}
+            />
+          );
+        })
+      ) : (
+        <h1>
+          Nothing found
+          <span role="img" aria-label="ghost">
+            👻
+          </span>
+        </h1>
+      )}
     </div>
   );
 };

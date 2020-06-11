@@ -48,7 +48,7 @@ class App extends Component {
 
     return robots.length ? (
       <div className="text-center container-search">
-        <h2 className="h2 tm-heading-fragment height-spacement">RoboCards</h2>
+        <h1 className="height-spacement sega-font">RoboCards</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
           <CardList robots={filteredRobots} />

@@ -2,6 +2,19 @@ html,
 body {
   overflow: hidden;
 }
+
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("../fonts/SEGA.woff") format("woff");
+}
+
+.sega-font {
+  font-family: "SEGA LOGO FONT";
+  color: #1e87f0;
+}
+
 .wrapper {
   display: grid;
   max-width: 1200px;

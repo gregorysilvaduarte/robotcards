@@ -19,10 +19,12 @@ const CardList = ({ robots }) => {
         })
       ) : (
         <h1>
-          Nothing found
-          <span role="img" aria-label="ghost">
-            👻
-          </span>
+          <danger>
+            Nothing found
+            <span role="img" aria-label="ghost">
+              👻
+            </span>
+          </danger>
         </h1>
       )}
     </div>

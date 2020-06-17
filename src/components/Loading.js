@@ -1,16 +1,22 @@
 import React from "react";
-import "./../assets/css/loading.css";
+import {
+  LoadingWrapper,
+  LoadingInner,
+  LoadingBar,
+  LoadingMainBar,
+  Title,
+} from "./../assets/css/Loading";
 
 const Loading = () => {
   return (
-    <div className="main-page card-green">
-      <div className="inner">
-        <h2>LOADING...</h2>
-        <div className="bar">
-          <div className="main-bar"></div>
-        </div>
-      </div>
-    </div>
+    <LoadingWrapper>
+      <LoadingInner>
+        <Title>LOADING...</Title>
+        <LoadingBar>
+          <LoadingMainBar></LoadingMainBar>
+        </LoadingBar>
+      </LoadingInner>
+    </LoadingWrapper>
   );
 };
 

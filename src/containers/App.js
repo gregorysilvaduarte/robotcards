@@ -4,6 +4,8 @@ import SearchBox from "./../components/SearchBox";
 import CardList from "./../components/CardList";
 import Scroll from "./../components/Scroll";
 import Loading from "./../components/Loading";
+import { AppWrapper, MainTitle } from "./../assets/css/App";
+import ErrorBoundry from "./../components/ErrorBoundry";
 
 class App extends Component {
   constructor() {
@@ -47,13 +49,15 @@ class App extends Component {
     });
 
     return robots.length ? (
-      <div className="text-center container-search">
-        <h1 className="height-spacement sega-font">RoboCards</h1>
+      <AppWrapper>
+        <MainTitle>RoboCards</MainTitle>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
-          <CardList robots={filteredRobots} />
+          <ErrorBoundry>
+            <CardList robots={filteredRobots} />
+          </ErrorBoundry>
         </Scroll>
-      </div>
+      </AppWrapper>
     ) : (
       <Loading />
     );

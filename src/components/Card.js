@@ -1,6 +1,6 @@
 import React from "react";
-import "./../assets/css/custom/hover.css";
-import "./../assets/css/card.css";
+import "./../assets/style/custom/hover.css";
+import "./../assets/style/card.css";
 import mapImage from "./../assets/images/map.png";
 
 const Card = ({ name, email, address, active }) => {

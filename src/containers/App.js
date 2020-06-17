@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { sort } from "./../helpers/util";
 import SearchBox from "./../components/SearchBox";
 import CardList from "./../components/CardList";
-import Scroll from "./../components/Scroll";
-import Loading from "./../components/Loading";
-import { AppWrapper, MainTitle } from "./../assets/css/App";
-import ErrorBoundry from "./../components/ErrorBoundry";
+import Scroll from "./../components/helpers/Scroll";
+import Loading from "./../components/helpers/Loading";
+import { AppWrapper, MainTitle } from "./../assets/style/App";
+import ErrorBoundry from "./../components/helpers/ErrorBoundry";
 
 class App extends Component {
   constructor() {

@@ -5,6 +5,7 @@ import CardList from "./../components/CardList";
 import Scroll from "./../components/helpers/Scroll";
 import Loading from "./../components/helpers/Loading";
 import { AppWrapper, MainTitle } from "./../assets/style/App";
+import { robots } from "./../backend/robots";
 import ErrorBoundry from "./../components/helpers/ErrorBoundry";
 
 class App extends Component {
@@ -17,24 +18,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((response) =>
-        response
-          .map(({ id, name, email, address }) => {
-            return {
-              id,
-              name,
-              email,
-              address,
-              active: Math.random() >= 0.5,
-            };
-          })
-          .sort((a, b) => sort(a, b, "name"))
-      )
-      .then((robots) => {
-        this.setState({ robots });
-      });
+    const robotsSorted = robots.sort((a, b) => sort(a, b, "name"));
+    this.setState({ robots: robotsSorted });
   }
 
   onSearchChange = ($event) => {

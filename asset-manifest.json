@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/robotcards/static/css/main.0eec819e.chunk.css",
-    "main.js": "/robotcards/static/js/main.76e621cd.chunk.js",
-    "main.js.map": "/robotcards/static/js/main.76e621cd.chunk.js.map",
+    "main.js": "/robotcards/static/js/main.ce73d098.chunk.js",
+    "main.js.map": "/robotcards/static/js/main.ce73d098.chunk.js.map",
     "runtime-main.js": "/robotcards/static/js/runtime-main.c25e2603.js",
     "runtime-main.js.map": "/robotcards/static/js/runtime-main.c25e2603.js.map",
     "static/js/2.afe785ee.chunk.js": "/robotcards/static/js/2.afe785ee.chunk.js",
     "static/js/2.afe785ee.chunk.js.map": "/robotcards/static/js/2.afe785ee.chunk.js.map",
     "index.html": "/robotcards/index.html",
-    "precache-manifest.30e1dd58bb7947d4059980d39cb8dce7.js": "/robotcards/precache-manifest.30e1dd58bb7947d4059980d39cb8dce7.js",
+    "precache-manifest.bab558d905d2d29df80fe98c1e3fa2d3.js": "/robotcards/precache-manifest.bab558d905d2d29df80fe98c1e3fa2d3.js",
     "service-worker.js": "/robotcards/service-worker.js",
     "static/css/main.0eec819e.chunk.css.map": "/robotcards/static/css/main.0eec819e.chunk.css.map",
     "static/js/2.afe785ee.chunk.js.LICENSE.txt": "/robotcards/static/js/2.afe785ee.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.c25e2603.js",
     "static/js/2.afe785ee.chunk.js",
     "static/css/main.0eec819e.chunk.css",
-    "static/js/main.76e621cd.chunk.js"
+    "static/js/main.ce73d098.chunk.js"
   ]
 }

@@ -3,20 +3,20 @@ import styled from "styled-components";
 export const ScrollWrapper = styled.div`
   margin: 1em 0 1em 0 !important;
 
-  .scroll {
-    overflow-y: scroll;
-    height: 80vh;
-  }
+  overflow-y: scroll;
+  height: 80vh;
 
-  .scroll::-webkit-scrollbar {
+  &::-webkit-scrollbar {
     width: 8px;
     height: 8px;
   }
-  .scroll::-webkit-scrollbar-track {
+
+  &::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
   }
-  .scroll::-webkit-scrollbar-thumb {
+
+  &::-webkit-scrollbar-thumb {
     background-color: #e78632;
     background-image: -webkit-linear-gradient(
       45deg,
